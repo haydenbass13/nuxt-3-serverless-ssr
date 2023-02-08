@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "dev:sls": "serverless offline"
+  },
+  "devDependencies": {
+    "@nuxt/webpack-builder": "npm:@nuxt/webpack-builder-edge@latest",
+    "html-webpack-plugin": "^5.5.0",
+    "nuxt": "^3.1.2",
+    "serverless-offline": "^11.4.0"
+  }
+}
